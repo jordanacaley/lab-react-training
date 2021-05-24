@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for CreditCard */
+
+.flex {
+  display: flex;
+}
+
+.creditCardContainer {
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ccLogo {
+  height: 30px;
+  align-self: flex-end;
+  margin: 20px;
+}
+
+.ccNumber {
+  font-size: 36px;
+}
+
+.ccDetails {
+  align-self: flex-start;
+  margin: 30px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ccBank {
+  margin-left: 20px;
+}
+
+/* Styles for DriverCard */
+
+.driverCardContainer {
+  height: 150px;
+  width: 600px;
+  border-radius: 15px;
+  background-color: slateblue;
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 220px;
+  font-size: 1.6em;
+  font-weight: 400;
+}
+
+.driverImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 15px;
+  object-fit: cover;
+}
+
+.textDiv {
+  text-align: left;
+}
+
+.smallText {
+  font-size: 0.6em;
+}
+
+.stars {
+  font-size: 34px;
+}
