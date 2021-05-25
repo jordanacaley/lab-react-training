@@ -7,11 +7,29 @@ import BoxColor from './Components/BoxColor';
 import CreditCard from './Components/CreditCard';
 import Rating from './Components/Rating';
 import DriverCard from './Components/DriverCard';
+import LikeButton from './Components/LikeButton';
+import ClickablePicture from './Components/ClickablePicture';
 
 function App() {
   return (
     <div className="App">
       <div className="appWrapper">
+
+        <h2>Iteration 9</h2>
+        <div>
+          <ClickablePicture
+            img='/img/persons/maxence.png'
+            imgClicked='/img/persons/maxence-glasses.png'
+          />
+        </div>
+
+        <h2>Iteration 8</h2>
+        <div>
+          <div class="flex">
+            <LikeButton /> <LikeButton />
+          </div>
+        </div>
+
         <h2>Iteration 7</h2>
 
         <div>
