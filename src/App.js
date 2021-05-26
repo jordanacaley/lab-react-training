@@ -9,11 +9,23 @@ import Rating from './Components/Rating';
 import DriverCard from './Components/DriverCard';
 import LikeButton from './Components/LikeButton';
 import ClickablePicture from './Components/ClickablePicture';
+import FaceBook from './Components/FaceBook';
+import NumbersTable from './Components/NumbersTable';
 
 function App() {
   return (
     <div className="App">
       <div className="appWrapper">
+        <h2>Iteration 12</h2>
+        <div>
+          <NumbersTable limit={12} />
+        </div>
+
+        <h2>Iteration 13</h2>
+        <div>
+          <FaceBook />
+        </div>
+
 
         <h2>Iteration 9</h2>
         <div>

@@ -131,3 +131,38 @@
 .hidden {
   display: none;
 }
+
+.fbContainer {
+  border: 1px solid black;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.fbPhoto {
+  height: 150px;
+  padding: 10px;
+}
+
+.fbInfo {
+  text-align: left;
+}
+
+.red {
+  background-color: red;
+  padding: 10px;
+  border: 1px solid black;
+  width: 50px;
+}
+
+.white {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  width: 50px;
+}
+
+.numbersContainer {
+  display: flex;
+  width: 250px;
+  flex-wrap: wrap;
+}
